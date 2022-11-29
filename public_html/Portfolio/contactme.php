@@ -3,6 +3,7 @@ require(__DIR__ . "/../../partials/nav.php");
 ?>
 <head>
     <Title>Contact Carlos!</Title>
+
 <head>
 <body>
 <div class="col-9">
