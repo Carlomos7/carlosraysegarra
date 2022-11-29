@@ -32,4 +32,4 @@ me.
 ### Contact Page Concept:
 ![Contact Page][logo]
 
-[logo]: /wireframes/Contact.png "Contact Page"
+[logo]: wireframes/Contact.png "Contact Page"
