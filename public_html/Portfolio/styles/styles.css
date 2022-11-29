@@ -1,0 +1,19 @@
+
+nav {
+    background-color: #93073E;
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+}
+.nav-link {
+    color: #FF5627;
+}
+.nav-link:hover{
+    color: #5B1647;
+    font-style: italic;
+}
+
+
+
+form{
+    font-family: 'Space Mono', monospace;
+}
