@@ -26,7 +26,7 @@ embed {
 @media only screen
 and (min-width : 320px) {
     .navbar{
-        padding-top: 15px;
-        padding-bottom: 15px;
+        padding-top: 150px;
+        padding-bottom: 150px;
     }
 }
