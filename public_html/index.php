@@ -2,5 +2,5 @@
 <?php
 require(__DIR__ . "/../lib/functions.php");
 echo "Hello World!";
-redirect("$BASE_PATH" . "/../home.php");
+redirect("$BASE_PATH" . "/../../home.php");
 ?>
