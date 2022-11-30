@@ -1,17 +1,17 @@
+/* Everything Styles*/
+* {
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+}
 /* Navigation Bar Styles
-
- style="width:42px;height:42px;"
-
     color: #5B1647;
     color: #93073E;
     color: #C90035;
     color: #FF5627;
     color: #FFC400;
-
  */
 nav {
     background-color: #5B1647;
-    font-family: 'Space Mono', monospace;
     font-weight: bold;
     font-size: 16px;
 }
@@ -26,9 +26,27 @@ nav {
     height: 42px;
     width: auto;
 }
-.container-fluid{
+div.container-fluid{
     padding: 0;
     margin: 0;
+}
+
+/* Home page Styles */
+article {
+    float: left;
+    padding: 40px 50px;
+    width: 70%;
+}
+ .home-card{
+    float:right;
+     width: 18rem;
+}
+.home-card{
+    float:right;
+    width: 18rem;
+}
+.home-card img{
+
 }
 /* Form Styles */
 
