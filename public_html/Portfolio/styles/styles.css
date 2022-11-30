@@ -1,4 +1,4 @@
-
+/* Navigation Bar Styles  */
 nav {
     background-color: #93073E;
     font-family: 'Space Mono', monospace;
@@ -12,12 +12,21 @@ nav {
     font-style: italic;
 }
 
-
+/* Form Styles */
 
 form{
     font-family: 'Space Mono', monospace;
 }
-
+/* PDF Styles */
 embed {
     float: right;   
+}
+
+/* Media Queries */
+@media only screen
+and (min-width : 320px) {
+    .navbar{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
 }
