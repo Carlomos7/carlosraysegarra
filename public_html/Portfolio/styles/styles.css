@@ -1,17 +1,35 @@
-/* Navigation Bar Styles  */
+/* Navigation Bar Styles
+
+ style="width:42px;height:42px;"
+
+    color: #5B1647;
+    color: #93073E;
+    color: #C90035;
+    color: #FF5627;
+    color: #FFC400;
+
+ */
 nav {
-    background-color: #93073E;
+    background-color: #5B1647;
     font-family: 'Space Mono', monospace;
     font-weight: bold;
+    font-size: 16px;
 }
 .nav-link {
-    color: #FF5627;
+    color: #FFC400;
 }
 .nav-link:hover{
-    color: #5B1647;
+    color: #C90035;
     font-style: italic;
 }
-
+.web-logo{
+    height: 42px;
+    width: auto;
+}
+.container-fluid{
+    padding: 0;
+    margin: 0;
+}
 /* Form Styles */
 
 form{
@@ -19,13 +37,29 @@ form{
 }
 /* PDF Styles */
 embed {
-    float: right;   
 }
 
+
+
 /* Media Queries */
-@media only screen and (max-width : 320px) {
-    .navbar a{
-        padding-top: 150px;
-        padding-bottom: 150px;
+@media only screen
+and (min-width : 1200px) {
+    nav{
+        float: left;
+    }
+    .container-fluid .navbar,
+    .navbar-expand-lg .navbar-collapse,
+    .navbar-expand-lg .navbar-nav{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar {
+        width: 10%;
+        height: 100vh;
+        align-items: flex-start;
+    }
+    .navbar-brand {
+        margin-left: 0.5em;
+        padding-bottom: 0;
     }
 }
