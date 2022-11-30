@@ -3,7 +3,7 @@ require(__DIR__ . "/../../partials/nav.php");
 ?>
 <head>
     <Title>Contact Carlos!</Title>
-
+    <link rel="stylesheet" href="<?php echo get_url('styles/contactme.css'); ?>">
 <head>
 <body>
 <div class="col-9">

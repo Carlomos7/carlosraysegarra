@@ -3,6 +3,7 @@ require(__DIR__ . "/../../partials/nav.php");
 ?>
 <head>
     <Title>Carlos Ray Segarra</Title>
+    <link rel="stylesheet" href="<?php echo get_url('styles/home.css'); ?>">
 </head>
 <body>
     <article class="d-flex flex-column min-vh-100 justify-content-center align-items-center" id="home" style="padding:128px 16px">

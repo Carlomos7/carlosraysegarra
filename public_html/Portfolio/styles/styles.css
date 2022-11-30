@@ -30,35 +30,6 @@ div.container-fluid{
     padding: 0;
     margin: 0;
 }
-
-/* Home page Styles */
-article {
-    float: left;
-    padding: 40px 50px;
-    width: 70%;
-}
- .home-card{
-    float:right;
-     width: 18rem;
-}
-.home-card{
-    float:right;
-    width: 18rem;
-}
-.home-card img{
-
-}
-/* Form Styles */
-
-form{
-    font-family: 'Space Mono', monospace;
-}
-/* PDF Styles */
-embed {
-}
-
-
-
 /* Media Queries */
 @media only screen
 and (min-width : 1200px) {
