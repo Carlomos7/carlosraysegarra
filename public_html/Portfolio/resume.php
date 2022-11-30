@@ -1,7 +1,6 @@
 <head>
     <Title>Carlos' Resume</Title>
-     <meta charset="UTF-8" name="viewport" content="width=device-width, intitial-scale=1">
-     <link rel="icon" href="../../images/favicon.ico">
+    <link rel="stylesheet" href="<?php echo get_url('styles/resume.css'); ?>">
 <head>
 <?php
 require(__DIR__ . "/../../partials/nav.php");

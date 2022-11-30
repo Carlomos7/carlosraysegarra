@@ -36,33 +36,6 @@ session_start();
   <script src ="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src ="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
-<!---<div class="container-fluid">
-    <div class="row">
-        <div class="col-1">
-            <nav class ="navbar navbar-expand-lg static-left">
-                <a class="navbar-brand" href="<?php echo get_url('home.php'); ?>">
-                <img class ="web-logo" src="https://carlomos7.github.io/image-repo/CRS_logo.png" alt="Carlos Logo"></a>
-                <ul class ="nav navbar-nav">
-                    <li class ="nav-item">
-                        <a class ="nav-link" href="<?php echo get_url('home.php'); ?>"> Home </a>
-                    </li>
-                    <li class ="nav-item">
-                        <a class ="nav-link" href="<?php echo get_url('aboutme.php'); ?>"> About Me </a>
-                    </li>
-                    <li class ="nav-item">
-                        <a class ="nav-link" href="<?php echo get_url('projects.php'); ?>"> Projects </a>
-                    </li>
-                    <li class ="nav-item">
-                        <a class ="nav-link" href="<?php echo get_url('resume.php'); ?>"> Resume </a>
-                    </li>
-                    <li class ="nav-item">
-                        <a class ="nav-link" href="<?php echo get_url('contactme.php'); ?>"> Contact </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </div>
-</div> -->
 <div class="container-fluid">
     <nav class="navbar navbar-expand-lg bs-side-navbar">
         <a class="navbar-brand" href="<?php echo get_url('home.php'); ?>">
@@ -80,6 +53,10 @@ session_start();
                 <br>
                 <li class ="nav-item">
                     <a class ="nav-link" href="<?php echo get_url('aboutme.php'); ?>">About Me</a>
+                </li>
+                <br>
+                <li class ="nav-item">
+                    <a class ="nav-link" href="<?php echo get_url('work.php'); ?>">Work</a>
                 </li>
                 <br>
                 <li class ="nav-item">
