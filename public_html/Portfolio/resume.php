@@ -6,5 +6,5 @@
 <?php
 require(__DIR__ . "/../../partials/nav.php");
 ?>
-<div>HELLO</div>
+
 <embed src= "https://carlomos7.github.io/image-repo/Carlos_Segarra_2022.pdf" width= "500" height= "375" type="application/pdf">
