@@ -1,9 +1,18 @@
 <!--DEVELOPER: Carlos Segarra, IS 117-003, Fall 2022 -->
 <?php
-    if(isset($_POST['message'])) {
+    if(isset($_POST['submit'])) {
+        $to = "carlos.segarrajf+crsxyz@gmail.com";
+        $from = $_POST['email']
+        $name =  $_POST['name-company'];
+        $subject = $_POST['subject'];
+        //$subject2 = "Your copy of the email form submission"
+        $message = $name . "wrote the following:" .  "\n\n" . $_POST['message'];
 
-    mail("carlos.segarrajf+crsxyz@gmail.com", $_POST['name-company'] . ":" . $_POST['subject'],
-    $_POST['message'] . "From: " . $_POST['email']);
+        $headers = "From: " . $from;
+
+        mail($to,$subject,$message,$headers);
+
+        echo "Thank you, " . $name . ". You message has been sent :)";
 
     }
 
@@ -19,7 +28,7 @@ require(__DIR__ . "/../../partials/nav.php");
     <div class="container-fluid">
         <h1><b>Contact Me!</b></h1>
         <hr>
-        <form method="POST" action="contactme.php">
+        <form method="post" action="">
 
             <div class="row mb-4">
               <div class="col">
