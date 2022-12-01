@@ -4,7 +4,7 @@
     font-family: 'Space Mono', monospace;
 }
 .content-containers{
-    min-height: calc(100vh - 50px);
+    min-height: calc(100vh - 3.125rem);
 }
 /* Navigation Bar Styles
     color: #5B1647;
@@ -22,7 +22,7 @@ nav {
 }
 .nav-link:hover{
     color: #C90035;
-    text-shadow: 2px 2px black;
+    text-shadow: 0.125rem 0.125rem black;
     font-weight: bold;
     font-style: italic;
     font-size: 1.25rem;
@@ -54,7 +54,7 @@ and (min-width : 1200px) {
     }
     .navbar {
         width: 10%;
-        min-height: calc(100vh - 50px);
+        min-height: calc(100vh - 3.125rem);
         align-items: flex-start;
     }
     .navbar-brand {
