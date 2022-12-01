@@ -1,5 +1,7 @@
 <?php
 require(__DIR__ . "/../../partials/nav.php");
+
+
 ?>
 <head>
     <Title>Contact Carlos!</Title>
@@ -8,7 +10,7 @@ require(__DIR__ . "/../../partials/nav.php");
 <body>
 <div class="col-9">
     <div class="container">
-      <form method="POST">
+      <form action="mailto:cs525@njit.edu" method="POST" enctype="text/plain">
         <!-- 2 column grid layout with text inputs for the first and last names -->
         <div class="row mb-4">
           <div class="col">
@@ -35,7 +37,7 @@ require(__DIR__ . "/../../partials/nav.php");
                     placeholder="Write your details" required></textarea>
           <label class="form-label" for="message">Message</label>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <input type="submit" class="btn btn-primary"></input>
       </form>
     </div>
   </div>

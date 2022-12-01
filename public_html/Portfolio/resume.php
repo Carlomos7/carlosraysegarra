@@ -2,7 +2,7 @@
 require(__DIR__ . "/../../partials/nav.php");
 ?>
 <head>
-    <Title>Carlos' Resume</Title>
+    <Title>Carlos' Resumé </Title>
     <link rel="stylesheet" href="<?php echo get_url('styles/resume.css'); ?>">
     
 <head>
