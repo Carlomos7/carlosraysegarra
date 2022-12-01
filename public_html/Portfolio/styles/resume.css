@@ -3,6 +3,50 @@
 form{
     font-family: 'Space Mono', monospace;
 }
+.title{
+    text-align: center;
+    
+}
+.address{
+    border: none;
+    top: 7%;
+    left: 44%;
+    position: absolute;
+    align-items: center;
+    
+}
+.phone{
+    border: none;
+    top: 7%;
+    left: 54%;
+    position: absolute;
+    align-items: center;
+}
+.email{
+    border: none;
+    top: 7%;
+    left: 65%;
+    position: absolute;
+    align-items: center;
+}
+
+.divider{
+    width:85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.education{
+    display: inline-block;
+    width: 16rem;
+    height: 25rem;
+}
+
+.text{
+    display: inline-block;
+    text-align: left;
+}
 /* PDF Styles */
-embed {
+
+embed{
+    margin-top: 3rem;
 }
