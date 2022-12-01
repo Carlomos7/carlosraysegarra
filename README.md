@@ -20,16 +20,13 @@ ahead and consider whether I am fit for their company. If so, they have all the 
 me.
 # Wireframe Concepts
 ### Home Page Concept:
-![Home Page][logo]
 
-[logo]: /wireframes/home.png "Home Page"
+![Home Page](https://github.com/Carlomos7/carlosraysegarra/blob/main/wireframes/home.png?raw=true)
 
 ### Projects Page Concept:
-![Project Page][logo]
 
-[logo]: /wireframes/Projects.png "Project Page"
+![Projects Page](https://github.com/Carlomos7/carlosraysegarra/blob/main/wireframes/Projects.png?raw=true)
 
 ### Contact Page Concept:
-![Contact Page][logo]
 
-[logo]: wireframes/Contact.png "Contact Page"
+![Contact Page](https://github.com/Carlomos7/carlosraysegarra/blob/main/wireframes/Contact.png?raw=true)
