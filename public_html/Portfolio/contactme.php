@@ -1,6 +1,6 @@
 <!--DEVELOPER: Carlos Segarra, IS 117-003, Fall 2022 -->
 <?php
-    if(isset($_POST['submit'])) {
+    if($_POST['submit']) {
         $to = "<carlos.segarra@ymail.com>";
         $from = "<" . $_POST['email'] . ">";
         $sender =  $_POST['sender'];
@@ -10,9 +10,9 @@
 
         $headers = "From: " . $from;
 
-        mail($to,$subject,$message,$headers);
+        //mail($to,$subject,$message,$headers);
 
-        echo "Thank you, " . $sender . ". You message has been sent :)";
+        echo "<h1>Thank you, " . $sender . ". You message has been sent :)<h1>";
 
     }
 
