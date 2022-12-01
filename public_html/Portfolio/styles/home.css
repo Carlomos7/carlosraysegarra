@@ -4,21 +4,7 @@
 article{
     padding:2rem 2rem 0 2rem;
 }
-.btn {
-    background-color: #FFC400;
-    color: #C90035;
-    justify-content: center;
-    border-radius: 0;
-}
 
-.btn:hover {
-    background-color: #C90035;
-    color: #FFC400;
-    font-weight: bold;
-    font-style: italic;
-    text-shadow: 2px 2px #5B1647;
-    box-shadow: 2px 2px #5B1647;
-}
 .home-card{
     border: none;
     border-radius: 0;
