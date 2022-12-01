@@ -1,10 +1,13 @@
 /* Home page Styles */
 
+article{
+    padding:2rem 1rem 0 1rem;
+}
 .btn {
     background-color: #FFC400;
     color: #C90035;
-    font-weight: bold;
     justify-content: center;
+    border-radius: 0;
 }
 
 .btn:hover {
@@ -13,9 +16,11 @@
     font-weight: bold;
     font-style: italic;
     text-shadow: 2px 2px #5B1647;
+    box-shadow: 2px 2px #5B1647;
 }
 .home-card{
     border: none;
+    border-radius: 0;
 }
 
 @media only screen
