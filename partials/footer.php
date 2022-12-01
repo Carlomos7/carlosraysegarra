@@ -1,3 +1,4 @@
+<!--DEVELOPER: Carlos Segarra, IS 117-003, Fall 2022 -->
 <?php
 require_once(__DIR__ . "/../lib/functions.php");
 

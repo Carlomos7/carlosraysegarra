@@ -1,3 +1,4 @@
+<!--DEVELOPER: Carlos Segarra, IS 117-003, Fall 2022 -->
 <?php
 require_once(__DIR__ . "/../lib/functions.php");
 //Note: this is to resolve cookie issues with port numbers
@@ -7,7 +8,6 @@ if (strpos($domain, ":")) {
 }
 $localWorks = true; //some people have issues with localhost for the cookie params
 //if you're one of those people make this false
-
 //this is an extra condition added to "resolve" the localhost issue for the session cookie
 if (($localWorks && $domain == "localhost") || $domain != "localhost") {
     session_set_cookie_params([
