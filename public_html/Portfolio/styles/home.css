@@ -2,7 +2,7 @@
 /* Home page Styles */
 
 article{
-    padding:2rem 1rem 0 1rem;
+    padding:2rem 2rem 0 2rem;
 }
 .btn {
     background-color: #FFC400;
@@ -22,6 +22,9 @@ article{
 .home-card{
     border: none;
     border-radius: 0;
+    width: 24rem;
+    margin: 0 1rem 1rem 0;
+    float: inside;
 }
 
 @media only screen
@@ -31,18 +34,30 @@ and (min-width : 1200px) {
         margin-right: auto;
         width: 70%;
     }
-
+    body{
+        box-sizing: border-box;
+    }
+    .row:after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .column {
+        float: left;
+        width: 50%;
+    }
     .intro {
         justify-content: center;
         display: flex;
         text-align: justify;
         text-justify: inter-word;
+        margin: 0;
     }
 
     .home-card {
-        float: right;
         width: 24rem;
         border: none;
+        margin: 0 1rem 1rem 0;
     }
 
     img {
