@@ -1,8 +1,8 @@
 <!--DEVELOPER: Carlos Segarra, IS 117-003, Fall 2022 -->
 <?php
     if(isset($_POST['submit'])) {
-        $to = "prcsmcxopx@hotmail.com";
-        $from = $_POST['email'];
+        $to = "<carlos.segarrajf+crsxyz@gmail.com>";
+        $from = "<" . $_POST['email'] . ">";
         $sender =  $_POST['sender'];
         $subject = $_POST['subject'];
         //$subject2 = "Your copy of the email form submission"
