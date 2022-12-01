@@ -9,7 +9,7 @@ require(__DIR__ . "/../../partials/nav.php");
     <link rel="stylesheet" href="<?php echo get_url('styles/contactme.css'); ?>">
 <head>
 <body>
-<div class="col-9">
+<div class="col-9 content-containers">
     <div class="container">
       <form action="mailto:cs525@njit.edu" method="POST" enctype="text/plain">
         <!-- 2 column grid layout with text inputs for the first and last names -->
@@ -42,5 +42,6 @@ require(__DIR__ . "/../../partials/nav.php");
       </form>
     </div>
   </div>
+  <?php include_once(__DIR__ . "/../../partials/footer.php") ?>
 </body>
 </html>

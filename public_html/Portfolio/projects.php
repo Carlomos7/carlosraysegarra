@@ -6,3 +6,9 @@ require(__DIR__ . "/../../partials/nav.php");
     <Title>Carlos' Projects</Title>
     <link rel="stylesheet" href="<?php echo get_url('styles/projects.css'); ?>">
 <head>
+<body>
+    <div class="content-containers">
+
+    </div>
+    <?php include_once(__DIR__ . "/../../partials/footer.php") ?>
+</body>
