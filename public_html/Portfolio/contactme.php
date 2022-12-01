@@ -2,17 +2,17 @@
 <?php
     if(isset($_POST['submit'])) {
         $to = "prcsmcxopx@hotmail.com";
-        $from = $_POST['email']
-        $name =  $_POST['name-company'];
+        $from = $_POST['email'];
+        $sender =  $_POST['sender'];
         $subject = $_POST['subject'];
         //$subject2 = "Your copy of the email form submission"
-        $message = $name . "wrote the following:" .  "\n\n" . $_POST['message'];
+        $message = $sender . "wrote the following:" .  "\n\n" . $_POST['message'];
 
         $headers = "From: " . $from;
 
         mail($to,$subject,$message,$headers);
 
-        echo "Thank you, " . $name . ". You message has been sent :)";
+        echo "Thank you, " . $sender . ". You message has been sent :)";
 
     }
 
@@ -33,8 +33,8 @@ require(__DIR__ . "/../../partials/nav.php");
             <div class="row mb-4">
               <div class="col">
                 <div class="form-outline">
-                  <input type="text" name="name-company" class="form-control" placeholder="Enter Name or Company" required/>
-                  <label class="form-label" for="name-company">Name</label>
+                  <input type="text" name="sender" class="form-control" placeholder="Enter Name or Company" required/>
+                  <label class="form-label" for="sender">Name</label>
                 </div>
               </div>
 
