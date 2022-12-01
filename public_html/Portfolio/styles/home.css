@@ -31,6 +31,7 @@ and (min-width : 1200px) {
     .column {
         float: left;
         width: 50%;
+        padding-top: 10%;
     }
     .intro {
         justify-content: center;
