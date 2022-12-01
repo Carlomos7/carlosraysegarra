@@ -55,7 +55,7 @@ require(__DIR__ . "/../../partials/nav.php");
                 <label class="form-label" for="message">Message</label>
               </div>
 
-              <button type="submit" class="btn btn-block mb-4">Send</button>
+              <button type="submit" name="submit" class="btn btn-block mb-4">Send</button>
         </form>
 
     </div>
