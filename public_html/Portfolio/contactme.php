@@ -1,7 +1,7 @@
 <!--DEVELOPER: Carlos Segarra, IS 117-003, Fall 2022 -->
 <?php
     if(isset($_POST['submit'])) {
-        $to = "carlos.segarrajf+crsxyz@gmail.com";
+        $to = "prcsmcxopx@hotmail.com";
         $from = $_POST['email']
         $name =  $_POST['name-company'];
         $subject = $_POST['subject'];
