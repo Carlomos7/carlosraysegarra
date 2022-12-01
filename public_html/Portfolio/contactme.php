@@ -1,12 +1,12 @@
 <!--DEVELOPER: Carlos Segarra, IS 117-003, Fall 2022 -->
 <?php
     if($_POST['submit']) {
-        $to = "<carlos.segarrajf@gmail.com>";
-        $from = "<" . $_POST['email'] . ">";
+        $to = "carlos.segarrajf@gmail.com";
+        $from = $_POST['email'];
         $sender =  $_POST['sender'];
         $subject = $_POST['subject'];
         //$subject2 = "Your copy of the email form submission"
-        $message = $sender . "wrote the following:" .  "\n\n" . $_POST['message'];
+        $message = $sender . "wrote the following:" .  "\r\n" . $_POST['message'];
 
         $headers = "From: " . $from;
 
