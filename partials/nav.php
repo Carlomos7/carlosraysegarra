@@ -36,7 +36,7 @@ session_start();
   <script src ="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src ="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
-<div class="container-fluid">
+<div class="container-fluid csnav">
     <nav class="navbar navbar-expand-lg bs-side-navbar">
         <a class="navbar-brand" href="<?php echo get_url('home.php'); ?>">
         <img class ="web-logo" src="https://carlomos7.github.io/image-repo/CRS_logo.png" alt="Carlos Logo"></a>

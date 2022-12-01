@@ -1,17 +1,46 @@
 /* Home page Styles */
-article {
-    float: left;
-    padding: 40px 50px;
-    width: 70%;
-}
-.home-card{
-    float:right;
-    width: 18rem;
-}
-.home-card{
-    float:right;
-    width: 18rem;
-}
-.home-card img{
 
+.btn {
+    background-color: #FFC400;
+    color: #C90035;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.btn:hover {
+    background-color: #C90035;
+    color: #FFC400;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 2px 2px #5B1647;
+}
+.home-card{
+    border: none;
+}
+
+@media only screen
+and (min-width : 1200px) {
+    article {
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+    }
+
+    .intro {
+        justify-content: center;
+        display: flex;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+    .home-card {
+        float: right;
+        width: 24rem;
+        border: none;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
 }

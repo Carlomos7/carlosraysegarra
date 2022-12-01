@@ -12,22 +12,28 @@
  */
 nav {
     background-color: #5B1647;
-    font-weight: bold;
-    font-size: 16px;
+    font-size: 1rem;
 }
 .nav-link {
     color: #FFC400;
 }
 .nav-link:hover{
     color: #C90035;
+    text-shadow: 2px 2px black;
+    font-weight: bold;
     font-style: italic;
 }
 .web-logo{
     height: 42px;
     width: auto;
 }
-div.container-fluid{
-    padding: 0;
+.web-logo:hover{
+    height: 62px;
+    width: auto;
+}
+div.container-fluid.csnav{
+    padding-right: 0;
+    padding-left: 0;
     margin: 0;
 }
 /* Media Queries */
