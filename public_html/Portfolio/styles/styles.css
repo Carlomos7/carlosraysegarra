@@ -3,6 +3,9 @@
     box-sizing: border-box;
     font-family: 'Space Mono', monospace;
 }
+.content-containers{
+    min-height: calc(100vh - 50px);
+}
 /* Navigation Bar Styles
     color: #5B1647;
     color: #93073E;
@@ -22,6 +25,7 @@ nav {
     text-shadow: 2px 2px black;
     font-weight: bold;
     font-style: italic;
+    font-size: 1.25rem;
 }
 .web-logo{
     height: 42px;
@@ -50,11 +54,25 @@ and (min-width : 1200px) {
     }
     .navbar {
         width: 10%;
-        height: 100vh;
+        min-height: calc(100vh - 50px);
         align-items: flex-start;
     }
     .navbar-brand {
         margin-left: 0.5em;
         padding-bottom: 0;
     }
+}
+
+/* Foot Styles */
+footer{
+    background-color: #FFC400;
+    color: #C90035;
+}
+footer a{
+    color: #FF5627;
+    padding: 1rem;
+}
+footer a:hover{
+    color: #5B1647;
+    font-weight: bold;
 }

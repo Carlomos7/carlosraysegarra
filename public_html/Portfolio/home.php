@@ -5,9 +5,9 @@ require(__DIR__ . "/../../partials/nav.php");
     <Title>Carlos Ray Segarra</Title>
     <link rel="stylesheet" href="<?php echo get_url('styles/home.css'); ?>">
 </head>
-<body>
-    <article id="home" style="padding:128px 16px">
-        <h1 class="cs-jumbo"><b>Carlos Ray Segarra</b></h1>
+<body class="containers">
+    <article class="content-containers">
+        <h1><b>Carlos Ray Segarra</b></h1>
         <p class="intro">My name is Carlos Segarra. I am a third-year Information Technology major specializing in Website Development.
         Most of my tech background comes from gaming. I attended a coding camp focused on Minecraft mod development
         when I was around 13 and have been hooked ever since. In making this website, I am hoping to advance my skills
@@ -32,4 +32,5 @@ require(__DIR__ . "/../../partials/nav.php");
         ac leo purus. Mauris quis diam velit</p>
 
     </article>
+    <?php include_once(__DIR__ . "/../../partials/footer.php") ?>
 </body>
