@@ -61,7 +61,7 @@ session_start();
                 </li>
                 <br>
                 <li class ="nav-item">
-                    <a class ="nav-link" href="<?php echo get_url('resume.php'); ?>">Resume</a>
+                    <a class ="nav-link" href="<?php echo get_url('resume.php'); ?>">Resumé</a>
                 </li>
                 <br>
                 <li class ="nav-item">
