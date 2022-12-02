@@ -6,6 +6,7 @@
 }
 .content-containers{
     min-height: calc(100vh - 3.125rem);
+    padding:2rem 2rem 0 2rem;
 }hr{
      height: 0.188rem;
      background-color: #C90035;
