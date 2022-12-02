@@ -94,7 +94,7 @@ require(__DIR__ . "/../../partials/nav.php");
                 <div class="card-body d-flex flex-column">
                     <h5 class="card-title">Online Portfolio</h5>
                     <p class="card-text mb-4">In making this website, I am hoping to advance my skills in CSS, JavaScript, PHP, and server hosting.</p>
-                    <a href="carlosray.xyz" target="_blank" rel="noopener noreferrer" class="btn mt-auto align-self-start">Home!</a>
+                    <a href="http://carlosray.xyz/" target="_blank" rel="noopener noreferrer" class="btn mt-auto align-self-start">Home!</a>
                 </div>
             </div>
         </div>
