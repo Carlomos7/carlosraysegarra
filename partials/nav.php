@@ -23,7 +23,7 @@ session_start();
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <?php include_once("analyticstracking.php") ?>
+
   <meta charset="UTF-8" name="viewport" content="width=device-width, intitial-scale=1">
   <link rel="icon" href="https://carlomos7.github.io/image-repo/favicon.ico">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
@@ -34,6 +34,8 @@ session_start();
   <script src ="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src ="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
+<body>
+<?php include_once("analyticstracking.php") ?>
 <div class="container-fluid csnav">
     <nav class="navbar navbar-expand-lg bs-side-navbar">
         <a class="navbar-brand" href="<?php echo get_url('home.php'); ?>">
@@ -78,3 +80,4 @@ session_start();
         </div>
     </nav>
 </div>
+</body>
