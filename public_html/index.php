@@ -4,3 +4,6 @@ require(__DIR__ . "/../lib/functions.php");
 echo "Hello World!";
 redirect("$BASE_PATH" . "/../../home.php");
 ?>
+<head>
+    <?php include_once("analyticstracking.php") ?>
+</head>
