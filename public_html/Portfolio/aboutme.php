@@ -7,6 +7,7 @@ require(__DIR__ . "/../../partials/nav.php");
     <link rel="stylesheet" href="<?php echo get_url('styles/aboutme.css'); ?>">
 </head>
 <body>
+    <?php include_once("analyticstracking.php") ?>
     <article class="content-containers">
         <h1> <b>About Me</b></h1>
         <hr>
