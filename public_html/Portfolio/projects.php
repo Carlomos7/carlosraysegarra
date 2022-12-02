@@ -7,7 +7,7 @@ require(__DIR__ . "/../../partials/nav.php");
     <link rel="stylesheet" href="<?php echo get_url('styles/projects.css'); ?>">
 <head>
 <body>
-<?php include_once("/../lib/analyticstracking.php") ?>
+<?php include_once("/../../lib/analyticstracking.php") ?>
 <article class="content-containers">
 <h1><b>My Projects</b></h1>
 <hr>
