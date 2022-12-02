@@ -32,6 +32,15 @@ session_start();
   <link rel="stylesheet" href="<?php echo get_url('styles/styles.css'); ?>">
   <script src ="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src ="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-77TYX3MYNW"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-77TYX3MYNW');
+  </script>
 </head>
 <div class="container-fluid csnav">
     <nav class="navbar navbar-expand-lg bs-side-navbar">
