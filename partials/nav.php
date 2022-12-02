@@ -56,8 +56,14 @@ session_start();
                     <a class ="nav-link" href="<?php echo get_url('work.php'); ?>">Work</a>
                 </li>
                 <br>
-                <li class ="nav-item">
-                    <a class ="nav-link" href="<?php echo get_url('projects.php'); ?>">Projects</a>
+                <li class ="nav-item dropend">
+                    <a class ="nav-link dropdown-toggle" href="<?php echo get_url('projects.php'); ?>" data-bs-toggle="dropdown">Projects</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="https://github.com/Carlomos7/IT202-450/blob/prod/public_html/Project/Proposal.md" target="_blank" rel="noopener noreferrer"> Simple Shop </a></li>
+                          <li><a class="dropdown-item" href="https://cs525.itch.io/spooky-roll-a-ball" target="_blank" rel="noopener noreferrer"> Spooky Roll-A-Ball </a></li>
+                          <li><a class="dropdown-item" href="https://cs525.itch.io/it-201-sprint-3" target="_blank" rel="noopener noreferrer"> Unity Painter </a></li>
+                          <li><a class="dropdown-item" href="<?php echo get_url('projects.php'); ?>"> View all... </a></li>
+                        </ul>
                 </li>
                 <br>
                 <li class ="nav-item">

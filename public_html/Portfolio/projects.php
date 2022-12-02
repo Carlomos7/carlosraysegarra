@@ -32,7 +32,7 @@ require(__DIR__ . "/../../partials/nav.php");
             <div class="card">
 
                 <div class="card-body d-flex flex-column">
-                    <h4 class="card-title">Spook Roll-A-Ball</h4>
+                    <h4 class="card-title">Spooky Roll-A-Ball</h4>
                     <p class="card-text mb-4">I have implemented several modifications into the original roll-a-ball
                     game have changed it a few ways while also building off the same mechanics. All edits made have been
                     tailored to fit my Spooky-Roll-A-Ball game</p>
