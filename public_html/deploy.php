@@ -1,10 +1,5 @@
 <?php
-    /**
-     * GIT DEPLOYMENT SCRIPT
-     *
-     * Used for automatically deploying websites via GitHub
-     *
-     */
+    /*automatically deploying websites via GitHub*/
 
     // array of commands
     $commands = array(
@@ -30,6 +25,7 @@
 <!DOCTYPE HTML>
 <html lang="en-US">
 <head>
+    <?php include_once("analyticstracking.php") ?>
     <meta charset="UTF-8">
     <title>GIT DEPLOYMENT SCRIPT</title>
 </head>
