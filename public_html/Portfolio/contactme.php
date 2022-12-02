@@ -24,7 +24,6 @@ require(__DIR__ . "/../../partials/nav.php");
     <link rel="stylesheet" href="<?php echo get_url('styles/contactme.css'); ?>">
 <head>
 <body>
-<?php include_once("/../../lib/analyticstracking.php") ?>
 <article class="content-containers">
     <div class="container-fluid">
         <h1><b>Contact Me!</b></h1>
