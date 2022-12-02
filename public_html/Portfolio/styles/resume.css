@@ -1,53 +1,43 @@
 /*DEVELOPER: Carlos Segarra, IS 117-003, Fall 2022*/
-/* Form Styles */
+/* Resume styles */
 
-form{
-    font-family: 'Space Mono', monospace;
+article{
+    padding:2rem 2rem 0 2rem;
 }
-.title{
-    text-align: center;
-    
+.table-container{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
 }
-.address{
-    border: none;
-    top: 7%;
-    left: 44%;
-    position: absolute;
-    align-items: center;
-    
-}
-.phone{
-    border: none;
-    top: 7%;
-    left: 54%;
-    position: absolute;
-    align-items: center;
-}
-.email{
-    border: none;
-    top: 7%;
-    left: 65%;
-    position: absolute;
-    align-items: center;
-}
-
-.divider{
-    width:85%;
-    margin-left: auto;
-    margin-right: auto;
-}
-.education{
-    display: inline-block;
-    width: 16rem;
-    height: 25rem;
-}
-
-.text{
-    display: inline-block;
-    text-align: left;
-}
-/* PDF Styles */
-
-embed{
-    margin-top: 3rem;
+@media only screen
+and (min-width : 1200px) {
+    article {
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+    }
+    body{
+        box-sizing: border-box;
+    }
+    .row:after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .column {
+        float: left;
+        width: 20%;
+        height: 100%;
+    }
+    .column:nth-child(even){
+        width: 50%;
+    }
+    .table-heading{
+        width: 70%;
+        border-collapse: separate;
+    }
+    .column:nth-child(even) td{
+        text-align: justify;
+        text-justify: inter-word;
+    }
 }
