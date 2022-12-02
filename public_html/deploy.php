@@ -21,7 +21,7 @@
         $output .= htmlentities(trim($tmp)) . "\n<br /><br />";
     }
 ?>
-
+<!--DEVELOPER: Carlos Segarra, IS 117-003, Fall 2022 -->
 <!DOCTYPE HTML>
 <html lang="en-US">
 <head>
