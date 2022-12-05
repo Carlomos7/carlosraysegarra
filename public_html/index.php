@@ -3,7 +3,7 @@
 require(__DIR__ . "/../lib/functions.php");
 $BASE_PATH = '\Portfolio';
 echo "Hello World!";
-redirect("$BASE_PATH" . "/../../home.php");
+redirect("$BASE_PATH" . "/../Portfolio/home.php");
 ?>
 <head>
     <?php include_once("analyticstracking.php") ?>
