@@ -10,7 +10,7 @@ require(__DIR__ . "/../../partials/nav.php");
     <article class="content-containers">
     <div class="table-container">
 
-        <div class="row table-heading">
+        <div class="row">
             <div class ="column heading">
                 <h1>Carlos Segarra</h1>
             </div>
@@ -41,7 +41,7 @@ require(__DIR__ . "/../../partials/nav.php");
                 HTML, CSS, PHP, SQL,
                  GIT Docker, Flask
                   Languages:
-                 Fluent in Spanish
+                 <br>Fluent in Spanish
                 </td>
             </tr>
             <tr>

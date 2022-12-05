@@ -24,9 +24,6 @@ and (min-width : 1200px) {
         display: table;
         clear: both;
     }
-    .column.contact{
-        padding-left: 5rem;
-    }
     .column {
         float: left;
         width: 20%;
@@ -34,10 +31,6 @@ and (min-width : 1200px) {
     }
     .column:nth-child(even){
         width: 50%;
-    }
-    .table-heading{
-        width: 70%;
-        border-collapse: separate;
     }
     .column:nth-child(even) td{
         text-align: justify;
