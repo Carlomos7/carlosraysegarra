@@ -8,9 +8,13 @@
     min-height: calc(100vh - 3.125rem);
     padding:2rem 2rem 0 2rem;
 }hr{
+     display: block;
      height: 0.188rem;
-     background-color: #C90035;
-     border: none;
+     border: 0;
+     border-top: 0.188rem solid #C90035;
+     opacity: unset;
+     margin: 1em 0; padding: 0;
+     box-shadow: 0.063rem 0.125rem #5B1647;
  }
 .btn {
     background-color: #FFC400;
@@ -24,8 +28,8 @@
     color: #FFC400;
     font-weight: bold;
     font-style: italic;
-    text-shadow: 2px 2px #5B1647;
-    box-shadow: 2px 2px #5B1647;
+    text-shadow: 0.125rem 0.125rem #5B1647;
+    box-shadow: 0.125rem 0.125rem #5B1647;
 }
 
 /* Navigation Bar Styles
@@ -92,7 +96,7 @@ and (min-width : 1200px) {
         margin-top: 0;
         border-radius: 0;
         background-color: #FF5627;
-        box-shadow: 2px 2px #5B1647;
+        box-shadow: 0.125rem 0.125rem #5B1647;
     }
     .navbar .nav-item .dropdown-menu li a{
         color: #FFC400;
@@ -102,7 +106,7 @@ and (min-width : 1200px) {
         color: #FFC400;
         font-weight: bold;
         font-style: italic;
-        text-shadow: 2px 2px #5B1647;
+        text-shadow: 0.125rem 0.125rem #5B1647;
     }
     .navbar .nav-item:hover .dropdown-menu{
         display: block;
