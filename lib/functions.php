@@ -1,6 +1,6 @@
 <!--DEVELOPER: Carlos Segarra, IS 117-003, Fall 2022 -->
 <?php
-$BASE_PATH = '\Portfolio';
+$BASE_PATH = '/Portfolio';
 //require_once __DIR__."/../config.php";
 function get_url($dest)
 {
