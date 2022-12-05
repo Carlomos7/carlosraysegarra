@@ -24,6 +24,9 @@ and (min-width : 1200px) {
         display: table;
         clear: both;
     }
+    .column.contact{
+        padding-left: 5rem;
+    }
     .column {
         float: left;
         width: 20%;

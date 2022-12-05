@@ -9,17 +9,19 @@ require(__DIR__ . "/../../partials/nav.php");
 <body>
     <article class="content-containers">
     <div class="table-container">
-        <table class="table-heading">
-            <tr>
-                <td><h1>Carlos Segarra</h1></td>
-                <td>
-                    <div>114 Carlisle St.
-                          <br>South Plainfield, NJ 07080</div>
-                    <div>(973) 951-2465</div>
-                    <div>carlos.segarrajf@gmail.com</div>
-                </td>
-            </tr>
-        </table>
+
+        <div class="row table-heading">
+            <div class ="column heading">
+                <h1>Carlos Segarra</h1>
+            </div>
+            <div class="column contact">
+                    114 Carlisle St.
+                    <br>South Plainfield, NJ 07080
+                    <br>(973) 951-2465
+                    <br>carlos.segarrajf@gmail.com
+            </div>
+        </div>
+
         <div class="row">
 
         <div class="column">
@@ -69,7 +71,7 @@ require(__DIR__ . "/../../partials/nav.php");
             </td>
             </tr>
             <td><h4>WORK EXPERIENCE</h4>
-                WHOLE FOODS | Metuchen, NJ | 2020 – 2022
+                WHOLE FOODS | Metuchen, NJ | 2020 – 2022<br>
                 <i>Grocery Team Member</i>
                 <ul>
                     <li>Cultivated a customer-focused shopping environment by
@@ -78,7 +80,7 @@ require(__DIR__ . "/../../partials/nav.php");
                         answer shoppers' questions</li>
                     <li>Completed all point of sale opening and closing procedures</li>
                 </ul>
-                NEW JERSEY INNOVATION INSTITUTE | Newark, NJ | 2018 – 2020
+                NEW JERSEY INNOVATION INSTITUTE | Newark, NJ | 2018 – 2020<br>
                 <i>Project Assistant</i>
                 <ul>
                     <li>Assisted in general administrative support on various projects</li>
@@ -103,7 +105,7 @@ require(__DIR__ . "/../../partials/nav.php");
     </div>
 
         <a href="files\Carlos_Segarra_2022.pdf" class="btn mt-auto align-self-start" download>Download Resumé!</a>
-        <a href="https://carlomos7.github.io/image-repo/Carlos_Segarra_2022.pdf" class="btn mt-auto align-self-start" target="_blank" rel="noopener noreferrer"> View Resumé!</a>
+        <a href="https://carlomos7.github.io/image-repo/Carlos_Segarra_2022.pdf" class="btn mt-auto align-self-start" target="_blank" rel="noopener noreferrer">View Resumé!</a>
     </article>
     <?php include_once(__DIR__ . "/../../partials/footer.php") ?>
 </body>
