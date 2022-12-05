@@ -17,7 +17,7 @@ function redirect($path)
 {
     if (!headers_sent()) {
         //php redirect
-        die(header("Location: " . get_url($path)));
+        die(header("Location: " . get_url($path));
     }
     //javascript redirect
     echo "<script>window.location.href='" . get_url($path) . "';</script>";
