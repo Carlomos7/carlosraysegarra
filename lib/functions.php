@@ -2,7 +2,7 @@
 <?php
 $BASE_PATH = '/Portfolio';
 //require_once __DIR__."/../config.php";
-function get_url($dest)
+function get_url($dest) //get url
 {
     global $BASE_PATH;
     if (str_starts_with($dest, "/")) {
@@ -12,7 +12,7 @@ function get_url($dest)
     //handle relative path
     return "$BASE_PATH/$dest";
 }
-
+//redirect
 function redirect($path)
 {
     if (!headers_sent()) {
