@@ -6,7 +6,7 @@
 }
 .content-containers{
     min-height: calc(100vh - 3.125rem);
-    padding:2rem 2rem 0 2rem;
+    padding:2rem 2rem 1rem 2rem;
 }hr{
      display: block;
      height: 0.188rem;
@@ -80,7 +80,7 @@ and (min-width : 1200px) {
     .navbar-expand-lg .navbar-collapse,
     .navbar-expand-lg .navbar-nav{
         flex-direction: column;
-        align-items: flex-start;
+
     }
     .navbar {
         width: 10%;

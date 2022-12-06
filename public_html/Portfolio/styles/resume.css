@@ -1,14 +1,14 @@
 /*DEVELOPER: Carlos Segarra, IS 117-003, Fall 2022*/
 /* Resume styles */
-
-article{
-    padding:2rem 2rem 0 2rem;
-}
 .table-container{
     border-collapse: collapse;
     border-spacing: 0;
-    width: 100%;
 }
+hr{
+    margin: 0;
+    padding: 0;
+}
+
 @media only screen
 and (min-width : 1200px) {
     article {
@@ -19,21 +19,37 @@ and (min-width : 1200px) {
     body{
         box-sizing: border-box;
     }
-    .row:after{
-        content: "";
-        display: table;
-        clear: both;
-    }
     .column {
         float: left;
-        width: 20%;
+        width: auto;
         height: 100%;
     }
-    .column:nth-child(even){
-        width: 50%;
-    }
-    .column:nth-child(even) td{
+    .col-sm-6 td{
         text-align: justify;
         text-justify: inter-word;
+    }
+    .vertical-line{
+        float: left;
+        border-left:0.188rem solid #C90035;
+        box-shadow: 0.125rem 0.125rem #5B1647;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+    .table-container{
+        background-color: #FF5627;
+        width: 52.84vw;
+        height: 67.6vh;
+        overflow-x: hidden;
+        overflow-y: auto;
+        padding: 20px;
+        color: #5B1647;
+        border: solid 1px #D2482A;
+    }
+    .table-container:hover h4, .table-container:hover h1{
+        text-shadow: 0.125rem 0.125rem #C90035;
+    }
+    .table-container h1, .table-container h4{
+        color: #FFC400;
     }
 }
