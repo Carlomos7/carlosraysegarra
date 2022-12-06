@@ -1,5 +1,6 @@
 <!--DEVELOPER: Carlos Segarra, IS 117-003, Fall 2022 -->
 <?php
+    //Does not work currently
     if($_POST['submit']) {
         $to = "<carlos.segarrajf@gmail.com>";
         $from = "<". $_POST['email'] . ">";
@@ -55,7 +56,7 @@ require(__DIR__ . "/../../partials/nav.php");
                 <label class="form-label" for="message">Message</label>
               </div>
 
-              <button type="submit" name="submit" class="btn btn-block mb-4">Send</button>
+              <button type="submit" name="submit" class="btn">Send</button>
         </form>
 
     </div>

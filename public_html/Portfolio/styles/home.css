@@ -1,10 +1,6 @@
 /*DEVELOPER: Carlos Segarra, IS 117-003, Fall 2022*/
 /* Home page Styles */
 
-article{
-    padding:2rem 2rem 0 2rem;
-}
-
 .home-card{
     border: none;
     border-radius: 0;

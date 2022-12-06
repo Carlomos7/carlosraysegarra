@@ -1,9 +1,5 @@
 /*DEVELOPER: Carlos Segarra, IS 117-003, Fall 2022*/
 /* Work Experience Page Styles */
-
-article{
-    padding:2rem 2rem 0 2rem;
-}
 @media only screen
 and (min-width : 1200px) {
     article {

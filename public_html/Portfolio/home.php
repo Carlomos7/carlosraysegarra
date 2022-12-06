@@ -12,7 +12,7 @@ require(__DIR__ . "/../../partials/nav.php");
             <div class="column">
                 <h3> <b>&lt;</b>Hello, I'm</h3>
                 <h1><b>Carlos Ray Segarra</b></h1>
-                <h3>B.S Information Technology Specializing in Website Development<b>&gt;</b><h3>
+                <h3>B.S Information Technology Specializing in Website Development<b>!<span>&gt;</b><h3>
             </div>
             <div class="container-fluid home-card-container ms-auto column">
                 <div class="card home-card">
