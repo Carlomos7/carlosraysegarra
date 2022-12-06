@@ -21,6 +21,7 @@
     color: #C90035;
     justify-content: center;
     border-radius: 0;
+    border: solid 1px #D2A200;
 }
 
 .btn:hover {
