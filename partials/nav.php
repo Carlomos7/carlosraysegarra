@@ -26,7 +26,8 @@ session_start();
 
   <meta charset="UTF-8" name="viewport" content="width=device-width, intitial-scale=1">
   <link rel="icon" href="https://carlomos7.github.io/image-repo/favicon.ico">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
@@ -60,7 +61,8 @@ session_start();
                 </li>
                 <br>
                 <li class ="nav-item dropend">
-                    <a class ="nav-link dropdown-toggle" href="<?php echo get_url('projects.php'); ?>" data-bs-toggle="dropdown">Projects</a>
+                    <a class ="nav-link dropdown-toggle" href="<?php echo get_url('projects.php'); ?>"
+                    data-bs-toggle="dropdown">Projects</a>
                         <ul class="dropdown-menu">
                           <li><a class="dropdown-item" href="https://github.com/Carlomos7/IT202-450/blob/prod/public_html/Project/Proposal.md" target="_blank" rel="noopener noreferrer"> Simple Shop </a></li>
                           <li><a class="dropdown-item" href="https://cs525.itch.io/spooky-roll-a-ball" target="_blank" rel="noopener noreferrer"> Spooky Roll-A-Ball </a></li>
