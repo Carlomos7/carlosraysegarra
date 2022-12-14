@@ -49,12 +49,12 @@ require(__DIR__ . "/../../partials/nav.php");
                     <td><h4>RELEVANT COURSES</h4>
                         Computer Systems and
                         Networks
-                        Internet & Applications
-                        Database Design
+                        <br>Internet & Applications
+                        <br>Database Design
                         Management & Applications
-                        Advanced Programming for
+                        <br>Advanced Programming for
                         Information Technology
-                        Information Design
+                        <br>Information Design
                         Techniques
                     </td>
                 </tr>
