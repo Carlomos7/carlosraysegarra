@@ -40,8 +40,8 @@ require(__DIR__ . "/../../partials/nav.php");
                     <td><h4>Skills</h4>
                     Python, Java, JavaScript,
                     HTML, CSS, PHP, SQL,
-                     GIT Docker, Flask
-                      Languages:
+                     Git, Docker, Flask
+                      <br>Languages:
                      <br>Fluent in Spanish<hr>
                     </td>
                 </tr>
