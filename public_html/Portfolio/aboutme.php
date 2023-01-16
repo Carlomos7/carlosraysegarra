@@ -8,23 +8,27 @@ require(__DIR__ . "/../../partials/nav.php");
 </head>
 <body>
     <article class="content-containers">
-        <h1> <b>About Me</b></h1>
+        <h1> <b>Carlos Segarra</b></h1>
         <hr>
         <p class="intro">
-        My name is Carlos Segarra. I am a third-year Information Technology major specializing in Website Development.
-        Most of my tech background comes from gaming. I attended a coding camp focused on Minecraft mod development
-        when I was around 13 and have been hooked ever since. In making this website, I am hoping to advance my skills
-        in CSS, JavaScript, PHP, and server hosting. </p>
+        I am a motivated and ambitious student at the New Jersey Institute of Technology, studying Information
+        Technology with a specialization in Website Development. I am passionate about technology and programming
+        languages and am eager to begin my career in the tech industry upon graduation in December 2023.<br>
+        I possess a strong foundation in programming languages such as Python, Java, JavaScript, HTML, CSS, PHP, and
+        SQL, and am proficient in Git, Docker, and Flask, allowing me to manage and deploy projects efficiently. My
+        coursework includes Computer Systems and Networks, Internet & Applications, Database Design, Advanced
+        Programming for Information Technology, and Information Design Techniques. </p>
         <p class="intro"> <img src="https://cdn-icons-png.flaticon.com/512/20/20079.png" alt="Blank Profile Picture">
-        My hobbies include reading books and comics, playing video games, and coding. I have proficient Java
-        programming skills and general knowledge of HTML, MySQL, PHP, JavaScript, and C++. Lorem ipsum dolor sit amet,
-        consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae
-        scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa.
-        Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio.
-        Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper
-        ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus
-        gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras
-        ac leo purus. Mauris quis diam velit</p>
+        I have gained real-world experience as a Project Assistant at the New Jersey Innovation Institute, where I
+        collaborated on short- and long-term projects, oversaw tasks delegated by the project manager, coordinated
+        with vendors and service providers, and ensured projects were completed on time and within budget. I
+        brought strong organizational skills, adaptability, and the ability to prioritize tasks while working
+        independently to this role. I was required to be available for a maximum of 24 hours per week during
+        business hours, reported to the Project Manager, and contributed to the entire project lifecycle. <br>
+        I have completed several projects, including Simple Shop, Roll-A-Ball Modifications, Unity Painter, and
+        Python Data Science Calculator, which showcase my skills and abilities. In my free time, I enjoy coding,
+        reading comics, and playing video games. My skills and experience make me a great candidate for any
+        IT-related job, and I am eager to continue learning and making an impact in the tech industry.</p>
 
         <a href="<?php echo get_url('contactme.php'); ?>" class="btn">Contact Me</a>
     </article>
