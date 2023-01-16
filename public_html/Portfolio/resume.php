@@ -15,8 +15,8 @@ require(__DIR__ . "/../../partials/nav.php");
                 <h1>Carlos Segarra</h1>
             </div>
             <div class="col-sm-4">
-                    114 Carlisle St.
-                    <br>South Plainfield, NJ 07080
+                    South Plainfield,
+                    <br> NJ 07080
                     <br>(973) 951-2465
                     <br>carlos.segarrajf@gmail.com
             </div>
