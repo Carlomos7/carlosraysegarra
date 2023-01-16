@@ -107,8 +107,8 @@ require(__DIR__ . "/../../partials/nav.php");
         
     </div>
         <div class="container-fluid d-flex justify-content-center" style="padding:1rem 0 1rem 0;">
-        <a href="files\Carlos_Segarra_2022.pdf" class="btn mt-auto align-self-start" download>Download PDF</a>
-        <a href="https://carlomos7.github.io/image-repo/Carlos_Segarra_2022.pdf" class="btn mt-auto align-self-start"
+        <a href="javascript:;" class="btn mt-auto align-self-start">Download PDF</a>
+        <a href="https://carlomos7.github.io/image-repo/Carlos_Segarra_GH.pdf" class="btn mt-auto align-self-start"
         target="_blank" rel="noopener noreferrer">View PDF</a>
         </div>
     </article>
