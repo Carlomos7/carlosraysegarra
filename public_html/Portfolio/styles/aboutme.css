@@ -4,9 +4,6 @@
 img{
     width: 100%;
     height: auto;
-    padding-bottom: 100%;
-    object-fit: cover;
-    overflow: hidden;
     margin: 0 1rem 1rem 0;
     float: inside;
 }
