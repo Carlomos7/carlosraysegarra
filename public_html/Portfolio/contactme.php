@@ -21,13 +21,13 @@ require(__DIR__ . "/../../partials/nav.php");
 
 ?>
 <head>
-    <Title>Contact Carlos! [UNDER CONSTRUCTION]</Title>
+    <Title>Contact Carlos!</Title>
     <link rel="stylesheet" href="<?php echo get_url('styles/contactme.css'); ?>">
 <head>
 <body>
 <article class="content-containers">
     <div class="container-fluid">
-        <h1><b>Contact Me!</b></h1>
+        <h1><b>Contact Me! [UNDER CONSTRUCTION]</b></h1>
         <hr>
         <form method="post" action="">
 
