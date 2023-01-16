@@ -21,7 +21,7 @@ require(__DIR__ . "/../../partials/nav.php");
 
 ?>
 <head>
-    <Title>Contact Carlos!</Title>
+    <Title>Contact Carlos! [UNDER CONSTRUCTION]</Title>
     <link rel="stylesheet" href="<?php echo get_url('styles/contactme.css'); ?>">
 <head>
 <body>
