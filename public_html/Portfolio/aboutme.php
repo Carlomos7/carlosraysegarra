@@ -18,7 +18,7 @@ require(__DIR__ . "/../../partials/nav.php");
         SQL, and am proficient in Git, Docker, and Flask, allowing me to manage and deploy projects efficiently. My
         coursework includes Computer Systems and Networks, Internet & Applications, Database Design, Advanced
         Programming for Information Technology, and Information Design Techniques. </p>
-        <p class="intro"> <img src="https://carlomos7.github.io/image-repo/carlos_segarra.JPG" alt="Carlos Ray Segarra Portfolio Picture">
+        <p class="intro"> <img src="https://carlomos7.github.io/images-repo/carlos_segarra.jpg" alt="Carlos Ray Segarra Portfolio Picture">
         I have gained real-world experience as a Project Assistant at the New Jersey Innovation Institute, where I
         collaborated on short- and long-term projects, oversaw tasks delegated by the project manager, coordinated
         with vendors and service providers, and ensured projects were completed on time and within budget. I
