@@ -16,7 +16,7 @@ require(__DIR__ . "/../../partials/nav.php");
             </div>
             <div class="container-fluid home-card-container ms-auto column">
                 <div class="card home-card">
-                  <img src="https://carlomos7.github.io/image-repo/carlos_segarra.JPG" class="card-img-top" alt="Carlos Segara Portfolio Picture">
+                  <img src="https://carlomos7.github.io/images-repo/carlos_segarra.jpg" class="card-img-top" alt="Carlos Segara Portfolio Picture">
                   <div class="card-body">
                     <a href="<?php echo get_url('aboutme.php'); ?>" class="btn">More on Carlos</a>
                   </div>
